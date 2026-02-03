@@ -20,6 +20,8 @@ The pipeline covers every stage: eye validation → iris & pupil detection → r
 
 ---
 
+## Pipeline
+```
 Raw Eye Image
       │
       ▼
@@ -48,6 +50,8 @@ Raw Eye Image
 └──────┬──────┘
        ▼
   Identity Prediction  (Top-1 / Top-5)
+```
+
 ---
 
 ## Examples
