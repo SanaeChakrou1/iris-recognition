@@ -13,7 +13,7 @@ The pipeline covers every stage: eye validation → iris & pupil detection → r
 
 ## Dataset
 
-**Download:** [CASIA Iris Dataset on Kaggle](https://www.kaggle.com/datasets/YOUR-USERNAME/casia-iris-dataset)
+**Download:** [CASIA Iris Dataset on Kaggle](https://www.kaggle.com/datasets/sondosaabed/casia-iris-thousand)
 
 
 The pipeline covers every stage: eye validation → iris & pupil detection → rubber-sheet normalisation → deep-learning classification across **250 identities**.
