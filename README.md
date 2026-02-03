@@ -60,10 +60,10 @@ Raw Eye Image
 ![Eye Detection](screens/eye_detection.png)
 
 ### Iris Normalization
-![Iris Normalization](screens/iris normalization.png)
+![Iris Normalization](screens/iris_normalization.png)
 
 ### Iris Segmentation
-![Iris Segmentation](screens/iris segmentation.jpg)
+![Iris Segmentation](screens/iris_segmentation.jpg)
 
 ---
 
