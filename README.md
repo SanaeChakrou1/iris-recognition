@@ -20,8 +20,6 @@ The pipeline covers every stage: eye validation → iris & pupil detection → r
 
 ---
 
-## Pipeline
-```
 Raw Eye Image
       │
       ▼
@@ -33,10 +31,10 @@ Raw Eye Image
 ┌─────────────┐
 │  Iris &     │  Hybrid: Hough Circles + Integro-Differential (Daugman)
 │  Pupil      │  → detect pupil boundary (inner circle)
-│  Detection& |
-| segmentation│  → detect iris boundary (outer circle)
-└─────┬──────┘
-      ▼
+│  Detection& │  → detect iris boundary (outer circle)
+│ Segmentation│
+└──────┬──────┘
+       ▼
 ┌─────────────┐
 │  Iris       │  Rubber-Sheet Model (GPU-accelerated via PyTorch)
 │  Normal-    │  Unwrap annular iris region → fixed 64×512 rectangle
@@ -50,8 +48,6 @@ Raw Eye Image
 └──────┬──────┘
        ▼
   Identity Prediction  (Top-1 / Top-5)
-```
-
 ---
 
 ## Examples
@@ -60,10 +56,10 @@ Raw Eye Image
 ![Eye Detection](screens/eye_detection.png)
 
 ### Iris Segmentation
-![Iris Segmentation](screens/iris_segmentation.jpg)
+![Iris Segmentation](screens/iris segmentation.jpg)
 
 ### Iris Normalization
-![Iris Normalization](screens/iris_normalization.png)
+![Iris Normalization](screens/iris normalization.png)
 
 ---
 
